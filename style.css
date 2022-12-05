@@ -1,0 +1,94 @@
+body{
+	margin:0;
+	padding:0;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.containerCalculator{
+    margin-top: 100px;
+    height: 420px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:stretch;
+}
+
+input[type=textfield]{
+    width: 90%;
+    height: 25%;
+    background: none;
+    border-style: none;
+    text-align: right;
+    font-size: 50px;
+    padding: 5%;
+    color: #06301c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=button], input[type=reset] {
+    width: 100%;
+    font-size: 26px;
+    background: rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    color: #061f30;
+    border-radius: 25%;
+    border-color: rgba(255, 255, 255, 0.178);
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.1),
+        -5px -5px 10px -1px rgba(255, 255, 255, 0.28);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    padding: 5px;
+    height: 75%;
+}
+
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
